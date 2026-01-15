@@ -1,11 +1,3 @@
-palabra1 = "informatica"
-palabra2 = "programacion"
-print(palabra1+palabra2)
-print(palabra1[0]+palabra2[2])
-print(palabra2[6:])
-print(palabra1+"---"+palabra2)
-print(palabra1[:4])
-print(palabra1[:])
-print(palabra1[3])
-print(palabra2[-4])
-list(palabra1)
+n1 = input("Ingrese el primer número: ")
+n2 = input("Ingrese el segundo número: ")
+print("El resultado de la multiplicación es:", float(n1) * float(n2))
