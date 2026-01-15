@@ -1,4 +1,9 @@
-base = float(input("Ingrese la base: "))
-exp = float(input("Ingrese el exponente: "))
-resultado = base ** exp
-print(f"El resultado de {base} elevado a la {exp} es: {resultado}")
+n1 = int(input("Escribe unnúmero: "))
+n2 = int(input("Escribe un 2º número: "))
+print("Operaciones con ", n1, "y", n2)
+print(n1, "+", n2, "=", n1 + n2)
+print(n1, "-", n2, "=", n1 - n2)
+print(n1, "*", n2, "=", n1 * n2)
+print(n1, "/", n2, "=", n1 / n2)
+print(n1, "//", n2, "=", float(n1 // n2), "(División entera)")
+print(n1, "%", n2, "=", n1 % n2, "(Resto de la división)")
