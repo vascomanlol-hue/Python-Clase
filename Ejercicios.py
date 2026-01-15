@@ -1,3 +1,4 @@
-n1 = input("Ingrese el primer número: ")
-n2 = input("Ingrese el segundo número: ")
-print("El resultado de la multiplicación es:", float(n1) * float(n2))
+base = float(input("Ingrese la base: "))
+exp = float(input("Ingrese el exponente: "))
+resultado = base ** exp
+print(f"El resultado de {base} elevado a la {exp} es: {resultado}")
